@@ -1,0 +1,20 @@
+.circle {
+   
+    border: 5px solid #fff;
+    color: #fff;
+    width: 10vw;
+    height: 10vw;
+    font: 1.5vw Arial, sans-serif;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+  }
+
+  @media (min-width: 600px) {
+    .only-lg-white {
+      color: white !important;
+    }
+  }
